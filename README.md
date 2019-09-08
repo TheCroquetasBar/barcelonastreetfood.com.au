@@ -1,2 +1,3 @@
 # barcelonastreetfood.com.au
-🥘 Barcelona Street Food's website frontend
+
+Barcelona Street Food page Static website. No compilation required.
