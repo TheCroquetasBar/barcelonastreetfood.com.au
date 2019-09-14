@@ -1,0 +1,43 @@
+/** Background colors **/
+
+.bg-primary-color {
+    background: #D0412A;
+}
+
+.bg-secondary-color {
+    background: #3E0000;
+}
+
+.bg-tertiary-color {
+    background: #FCF6E3;
+}
+
+.bg-accent-color {
+    background: #0290C1;
+}
+
+.bg-complementary-color {
+    background: #4D4D4F;
+}
+
+/** Text colors **/
+
+.primary-color {
+    color: #D0412A;
+}
+
+.secondary-color {
+    color: #3E0000;
+}
+
+.tertiary-color {
+    color: #FCF6E3;
+}
+
+.accent-color {
+    color: #0290C1;
+}
+
+.complementary-color {
+    color: #4D4D4F;
+}
