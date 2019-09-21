@@ -1,43 +1,43 @@
 /** Background colors **/
 
 .bg-primary-color {
-    background: #D0412A;
+    background: #D0412A !important;
 }
 
 .bg-secondary-color {
-    background: #3E0000;
+    background: #3E0000 !important;
 }
 
 .bg-tertiary-color {
-    background: #FCF6E3;
+    background: #FCF6E3 !important;
 }
 
 .bg-accent-color {
-    background: #0290C1;
+    background: #0290C1 !important;
 }
 
 .bg-complementary-color {
-    background: #4D4D4F;
+    background: #4D4D4F !important;
 }
 
 /** Text colors **/
 
 .primary-color {
-    color: #D0412A;
+    color: #D0412A !important;
 }
 
 .secondary-color {
-    color: #3E0000;
+    color: #3E0000 !important;
 }
 
 .tertiary-color {
-    color: #FCF6E3;
+    color: #FCF6E3 !important;
 }
 
 .accent-color {
-    color: #0290C1;
+    color: #0290C1 !important;
 }
 
 .complementary-color {
-    color: #4D4D4F;
+    color: #4D4D4F !important;
 }

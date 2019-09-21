@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+}
+
+.page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.card-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#card-construction {
+    padding: 10vh 5vh 10vh 5vh;
+    margin: 2vh;
+    border-radius: 25px;
+}
+
+#card-construction img {
+    margin-top: -10vh;
+    margin-bottom: -10vh; 
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 852px) { 
+
+    #card-construction {
+        padding: 15vh 5vh 15vh 5vh;
+    }
+
+    #card-construction img {
+        margin-top: -30vh;
+        margin-bottom: -30vh; 
+        
+    }
+
+}
