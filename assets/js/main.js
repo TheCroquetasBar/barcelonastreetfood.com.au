@@ -1,3 +1,12 @@
-// Animations
-$('#card-construction').hide();
-setTimeout(function() {$('#card-construction').transition('scale');}, 250);
+var $document = $(document.body);
+
+$(function(){
+  clickedButtons();
+});
+
+function clickedButtons() {
+  $('.nav-link').click(function(){
+    $('.nav-link').removeClass('active');  
+    $(this).addClass('active');
+  });
+}
