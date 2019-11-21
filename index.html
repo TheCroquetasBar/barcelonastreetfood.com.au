@@ -19,6 +19,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="assets/css/styles.css" data-finger-print>
+    <link rel="stylesheet" href="assets/css/animation.css" data-finger-print>
     <link rel="stylesheet" href="assets/css/colors.css" data-finger-print>
 
     <!-- Fonts -->
@@ -77,20 +78,126 @@
 
     <!-- Semantic JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  
+  </head>
 
-    <body class="bg-complementary-color">
+  <body class="bg-tertiary-color">
 
-      <div class="page-content">
-        <div class="card-content">
-          <div id="card-construction" class="ui centered bg-primary-color">
-            <img src='assets/img/text-bg-transparent.png'>
+    <header class="bg-primary-color">
+      <nav class="navbar navbar-expand-lg fixed-top bg-primary-color navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About us <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#whats-on-the-menu">What's on the menu?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#social-media">Social Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#where-can-you-find-us">Where can you find us?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#get-in-touch">Get in touch</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="background-cover bg-primary-color"></div>
+      <div class="container inherit-height">
+        <div class="row align-items-center inherit-height">
+          <div class="col col-lg-12 col-12">
+            <h1>Barcelona Street Food</h1>
+            <div class="col row margin-15">
+              <div class="col col-lg-6 col-md-6 button-container auto-center">
+                <button href="#get-in-touch" type="button" class="button-primary gray-one-color md-btn-ripple md-btn-ripple-white">Contact us</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </header>
 
-      <!-- Scripts -->
-		  <script src="assets/js/main.js" defer async></script>
+    <div class="container" id="about-us">
+      <div class="row">
+        <div class="col col-12 section-heading">
+          <h3 class="section-title">About us</h3>
+          <div class="separator bg-gray-one-color"></div>
+        </div>
+      </div>
+    </div>
 
-    </body>
+    <div class="container" id="whats-on-the-menu">
+      <div class="row">
+        <div class="col col-12 section-heading">
+          <h3 class="section-title">What's on the menu?</h3>
+          <div class="separator bg-gray-one-color"></div>
+        </div>
+      </div>
+    </div>
 
-	</head>
+    <div class="container" id="experience">
+      <div class="row">
+        <div class="col col-12 section-heading">
+          <h3 class="section-title">Experience</h3>
+          <div class="separator bg-gray-one-color"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="social-media">
+      <div class="row">
+        <div class="col col-12 section-heading">
+          <h3 class="section-title">Social Media</h3>
+          <div class="separator bg-gray-one-color"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="where-can-you-find-us">
+      <div class="row">
+        <div class="col col-12 section-heading">
+          <h3 class="section-title">Where can you find us?</h3>
+          <div class="separator bg-gray-one-color"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="get-in-touch">
+      <div class="row">
+        <div class="col col-12 section-heading">
+          <h3 class="section-title">Get in touch</h3>
+          <div class="separator bg-gray-one-color"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid bg-primary-color">
+      <div class="row first-row">
+        <div class="web-links col-sm-12 col-lg-6">
+          <a target="_blank" href="https://croquetasbar.com.au">TheCroquetasBar</a> | 
+          <a target="_blank" href="https://elcaminocatering.com">ElCaminoCatering</a>
+        </div>
+        <div class="social-icons col-sm-12 col-lg-6">
+          <a class="btns" target="_blank" href="http://instagram.com/barcelonastfood"><i aria-hidden="true" class="fa fa-instagram fa-lg"></i></a>
+          <a class="btns" target="_blank" href="http://fb.com/barcelonastfood"><i aria-hidden="true" class="fa fa-facebook fa-lg"></i></a> 
+          <a class="btns" target="_blank" href="mailto:barcelonastfood@gmail.com"><i aria-hidden="true" class="fa fa-envelope-o fa-lg"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js" defer async></script>
+
+  </body>
+
+</html>
