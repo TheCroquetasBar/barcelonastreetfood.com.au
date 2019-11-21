@@ -12,12 +12,12 @@
     background: #FCF6E3 !important;
 }
 
-.bg-accent-color {
-    background: #0290C1 !important;
+.bg-white-color {
+    background: #FFFFFF !important;
 }
 
-.bg-complementary-color {
-    background: #4D4D4F !important;
+.bg-black-color {
+    background: #000000 !important;
 }
 
 /** Text colors **/
@@ -34,10 +34,10 @@
     color: #FCF6E3 !important;
 }
 
-.accent-color {
-    color: #0290C1 !important;
+.withe-color {
+    color: #FFFFFF !important;
 }
 
-.complementary-color {
-    color: #4D4D4F !important;
+.black-color {
+    color: #000000 !important;
 }
