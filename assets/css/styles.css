@@ -29,15 +29,71 @@ nav {
 
 /** Header **/
 
+header nav ul {
+	margin: 1.5em;
+	width: auto;
+}
+
+header nav ul li {
+	margin: 0 2.5em;
+}
+
+header nav ul .space-left {
+	padding-left: 4em;
+}
+
+header nav ul .space-right {
+	padding-right: 4em;
+}
+
+header nav ul li a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+header nav .nav-link:hover {
+	color: white;
+	box-shadow: 0px 10px 5px -6px rgba(0,0,0,0.29);
+}
+
 .background-cover {
 	position: absolute;
 	left: 0;
 	right: 0;
 	top: 0;
 	bottom: 0;
+	z-index: -1;
 	/** background-image: url('../img/cover.jpg'); **/
 	/** background-repeat: 'no-repeat'; **/
-	opacity: 0.5;
+
+}
+
+header .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+header .cover-img {
+	height: 70vh;
+}
+
+header .cover-button {
+	padding: 0.1em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	background-color: transparent;
+	border: #3E0000 solid 2px;
+}
+
+header .cover-button:hover {
+	color: #FCF6E3;
+	border: #FCF6E3 solid 2px;
+	-webkit-box-shadow: 0px 10px 5px -6px rgba(0,0,0,0.29);
+	-moz-box-shadow: 0px 10px 5px -6px rgba(0,0,0,0.29);
+	box-shadow: 0px 10px 5px -6px rgba(0,0,0,0.29);
 }
 
 /** Utils **/
