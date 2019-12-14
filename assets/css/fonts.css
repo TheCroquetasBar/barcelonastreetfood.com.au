@@ -8,8 +8,11 @@
 
 .subtitle-font {
     font-family: 'Pacifico', cursive;
+    color: #D0412A;
+    font-size: 17pt;
 }
 
 .text-font { 
     font-family: 'Cutive Mono', monospace;
+    font-size: 16pt;
 }
