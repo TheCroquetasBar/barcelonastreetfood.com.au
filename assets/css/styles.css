@@ -176,12 +176,35 @@ button p {
 	box-shadow: 8px 20px 20px -17px rgba(0,0,0,0.87);
 }
 
-/** Section **/
 
-#about-us {
-	padding-top: 4em;
-	padding-bottom: 4em;
+/** Sections **/
+
+.container .row {
+	max-width: 105vh;
+	margin: 0 auto;
 }
+
+
+body .section  {
+	padding-top: 4em;
+	padding-bottom: 6em;
+}
+
+body .section .section-body {
+	margin-top: 4em;
+}
+
+/** - Section headers **/
+
+
+.section-heading {
+	text-align: left;
+}
+
+.section-heading-right {
+	text-align: right;
+}
+
 
 .rectangle {
 	position: absolute;
@@ -191,8 +214,8 @@ button p {
 	z-index: -1;
 }
 
-.section-heading {
-	text-align: left;
+.rectangle-right {
+	right: 0;
 }
 
 .section-title {
@@ -202,14 +225,25 @@ button p {
 	background-color: white;
 }
 
+.section-title-right {
+	margin-left:  0;
+	margin-right: 0.5em;
+}
+
 .section-subtitle {
 	margin: 0;
     margin-left: 4em;
 }
 
+.section-subtitle-right {
+	margin-left: 0;
+    margin-right: 3.5em;
+}
+
+/** - About us section **/
+
+
 #about-us .section-body .paragraph-right {
-	padding: 3em;
-	padding-left: 5em;
 	text-align: right;
 }
 
@@ -218,42 +252,53 @@ button p {
 }
 
 #about-us .section-body .paragraph-left {
-	padding-bottom: 3em;
+	margin-bottom: 3em;
 }
 
-#about-us .section-body .paragraph-left p{
+#about-us .section-body .paragraph-left p {
 	text-align: left;
 	margin-top: 3em;
 	margin-left: 3em;
 }
 
-#about-us .section-body {
-	margin-top: 3em;
-}
-
 #about-us .section-body .section-photo {
 	padding-left: 4em;
-	max-height: 40em;
+	max-height: 30em;
 	width: auto;
 }
 
 
-.separator {
-	width: 5em;
-	height: 1px;
+#whats-on-the-menu .section-body p {
+	text-align: center;
+	max-width: 80vh;
 	margin: 0 auto;
-	margin-top:0.5em;
+	margin-bottom: 3em;
 }
 
-.info-container {
-	text-align: justify;
-	padding-bottom: 3em; 
+#whats-on-the-menu .menu-item .circle{
+	width: 125px;
+	height: 125px;
+	background-color: #D0412A;
+	border-radius: 100px;
+	margin: 0 auto;
 }
 
-.info-container-sub {
+#whats-on-the-menu  .menu-item {
+	font-family: 'Montserrat Medium', sans-serif;
 	margin: 0 auto;
-	text-align: justify;
-	margin-bottom: 4em; 
+	text-align: center;
+}
+
+#whats-on-the-menu  .menu-item .title {
+	font-style: italic;
+	font-size: 16pt;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	font-weight: 500;
+}
+
+#whats-on-the-menu  .menu-item .subtitle {
+	font-size: 12pt;
 }
 
 /** Footer **/
