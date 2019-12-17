@@ -152,14 +152,12 @@ button p {
 
 .button-secondary {
 	padding: 0.5em;
-	margin: 0.5em;   
 	width: inherit;
 	font-weight: 700;
-
-	background-color: transparent;
-	border: 2px solid #FF4E32;
-
+	background-color: #3E0000;
+	color: white;
 	font-size: large;
+	border:  none;
 }
 
 .button-white {
@@ -314,6 +312,50 @@ body .section .section-body {
 	margin-bottom: 2em;
 	text-align: center;
 }
+
+#get-in-touch  {
+	border: #FF4E32 3px solid;
+	max-width: 100vh;
+	margin-bottom: 8em;
+	padding: 3em;
+}
+
+
+#get-in-touch .section-heading .section-title {
+	text-align: center;
+	font-size: 26pt;
+	margin: 0;
+	font-weight: 300;
+}
+
+#get-in-touch .section-body {
+	margin-top: 2em;
+}
+
+#get-in-touch .section-body .form {
+	display: grid;
+}
+
+#get-in-touch .section-body .form .subtitle-font {
+	margin-bottom: 0.5em;
+	font-size: 16pt;
+}
+
+#get-in-touch .section-body .form .text-font {
+	font-size: 14pt;
+}
+
+#get-in-touch .section-body .form input,
+#get-in-touch .section-body .form textarea
+ {
+	background-color: #FCF6E3;
+	border: none;
+	padding: 0.5em;
+	margin-bottom: 0.5em;
+	resize: none;
+}
+
+
 
 
 /** Footer **/
