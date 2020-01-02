@@ -16,6 +16,12 @@ header {
 	position: relative;
 }
 
+a {
+	color: #3E0000 !important;
+}
+
+
+
 /** Navbar **/
 
 nav {
@@ -159,6 +165,7 @@ button p {
 	font-size: large;
 	border:  none;
 }
+
 
 .button-white {
 	padding: 0.5em;
@@ -355,8 +362,44 @@ body .section .section-body {
 	resize: none;
 }
 
+#get-in-touch .section-body .bottom-info {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 4em;
+}
 
+#get-in-touch .section-body .top-info {
+	margin-top: 2.8em;	
+}
 
+#get-in-touch .section-body .top-info .item {
+	display: flex;
+	align-items: center;
+}
+
+#get-in-touch .section-body .bottom-info p, #get-in-touch .section-body .top-info p {
+	margin-left: 1em;
+	display: inline;
+	font-size: medium;
+	vertical-align: bottom;
+}
+
+#get-in-touch .section-body span{
+	font-size: x-large;
+	padding: 0.15em;
+	min-width: 1.5em;
+}
+
+#get-in-touch .section-body span .bottom-info{ 
+	padding-bottom: 0;
+}
+
+#get-in-touch .form button {
+	width: 6em;
+	margin: 0 auto;
+	margin-right: 0;
+	margin-top: 0.5em;
+}
 
 /** Footer **/
 
