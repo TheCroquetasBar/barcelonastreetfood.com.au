@@ -404,40 +404,31 @@ body .section .section-body {
 /** Footer **/
 
 footer {
-	padding-left: 10vh !important;
-	padding-right: 10vh !important;
+	padding-left: 15vh !important;
+	padding-right: 15vh !important;
 	padding-bottom: 2em;
 }
 
-footer .first-row {
-	padding-top: 2em !important;
-	padding-bottom: 1em;
-}
-
-footer .social-icons {
-	text-align: center;
-}
-
-footer .web-links {
-	text-align: center;
-}
-
-footer .social-icons a {
-	margin: 0.5em;
-	height: auto;
-	width: 2em;
-}
-
-footer a:hover {
-	color: black !important;
+footer .row {
+	padding-top: 1em;
 }
 
 footer a {
 	color: white !important;
 }
 
-footer .row {
-	padding-top: 1em;
+footer .first-row {
+    align-items: flex-end;
+}
+
+footer .social-icons .row {
+	justify-content: flex-end;
+}
+
+footer .social-icons a {
+	margin: 0.5em;
+	font-size: x-large;
+	vertical-align: center;
 }
 
 footer p {
