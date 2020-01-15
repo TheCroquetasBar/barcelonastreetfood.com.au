@@ -78,17 +78,19 @@ header {
 
 header .content {
 	display: flex;
+	height: inherit;
+	width: auto;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
 
-header .cover-img {
-	max-width: 100%;
+header .content .element .cover-img img {
+	width: 60em;
 	height: auto;
+	padding-bottom: 6em;
 }
-
 
 /** Sections **/
 
@@ -351,12 +353,17 @@ footer p {
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) {
-
+	header .content .element .cover-img img {
+		width: 20em;
+	}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media  screen and (max-width: 768px) {
-	
+	header .content .element .cover-img img {
+		width: 20em;
+		max-width: 100%;
+	}
 	footer {
 		padding-left: 15vh !important;
 		padding-right: 15vh !important;
@@ -370,6 +377,12 @@ footer p {
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (max-width: 992px) { 
+
+	header .content .element .cover-img img {
+		width: 35em;
+		max-width: 100%;
+	}
+
 	#about-us .section-body .paragraph-left,
 	#about-us .section-body .paragraph-right {
 		text-align: center;
