@@ -3,10 +3,13 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 3em;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .gallery .photo {
-    margin: 0.2em;
+    margin: 0 auto;
+    padding: 0.5em;
 }
 
 .gallery .photo img {
@@ -23,6 +26,7 @@
 
     .gallery .photo img {
         width: 14em;
+        flex-grow: 12;
     }
 
     .gallery .photo img:hover {
