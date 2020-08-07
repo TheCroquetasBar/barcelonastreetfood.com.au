@@ -1,0 +1,19 @@
+
+.title-font {
+    font-family: 'Staatliches', cursive;
+    font-size: 30pt;
+    letter-spacing: 5pt;
+    color: #3E0000;
+}
+
+.subtitle-font {
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+    color: #D0412A;
+    font-size: 17pt;
+}
+
+.text-font { 
+    font-family: 'Cutive Mono', monospace;
+    font-size: 16pt;
+}

@@ -1,0 +1,48 @@
+
+/** Buttons **/
+
+.button-cover {
+	padding: 0.1em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	background-color: transparent;
+	border: #3E0000 solid 2px;
+}
+
+
+.button-cover:hover {
+	color: #FCF6E3;
+	border: #FCF6E3 solid 2px;
+	-webkit-box-shadow: 0px 10px 5px -6px rgba(0,0,0,0.29);
+	-moz-box-shadow: 0px 10px 5px -6px rgba(0,0,0,0.29);
+	box-shadow: 0px 10px 5px -6px rgba(0,0,0,0.29);
+}
+
+.button-primary {
+    padding: 0.1em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	background-color: transparent;
+	border: #D0412A solid 2px;
+}
+
+.button-primary:hover, .button-white:hover {
+	box-shadow: 0px 1px 5px rgba(119, 29, 0, 0.8);
+	color: #000;
+	transform: translateY(-1px);
+}
+
+.button-secondary {
+	padding: 0.5em;
+	width: inherit;
+	font-weight: 700;
+	background-color: #3E0000;
+	color: white;
+	font-size: large;
+	border:  none;
+}
+
+.button-secondary:hover {
+	background-color: #3e0000c9 !important;
+	color: white;
+}

@@ -1,0 +1,36 @@
+.gallery {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.gallery .photo {
+    margin: 0 auto;
+    padding: 0.5em;
+}
+
+.gallery .photo img {
+    width: 12em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .45s ease-in-out;
+}
+
+.gallery .photo img:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 480px) {
+
+    .gallery .photo img {
+        width: 14em;
+        flex-grow: 12;
+    }
+
+    .gallery .photo img:hover {
+        transform: none;
+    }
+
+}
